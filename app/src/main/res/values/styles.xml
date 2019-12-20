@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="riple">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#5ff5e4</item>
+        <item name="mrl_rippleAlpha">.3</item>
+    </style>
+
+    <style name="StyleSplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/egypt</item>
+
+    </style>
+</resources>

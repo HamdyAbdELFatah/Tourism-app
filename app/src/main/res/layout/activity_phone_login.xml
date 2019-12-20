@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coders.tourism.Ui.PhoneLoginActivity"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:fontFamily="@font/fontstyle"
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numberphone"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ionputtext"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:drawableStart="@drawable/phone2"
+        android:drawablePadding="15dp"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/edit_code"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/writeVerificationcodeher"
+        android:fontFamily="@font/fontstyle"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ionputtext"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:inputType="number"
+        />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_password"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+
+            android:id="@+id/riple_send_verficationcode"
+            style="riple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:fontFamily="@font/fontstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:padding="5dp"
+                android:text="@string/SendverificationCode"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_password"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+
+            android:id="@+id/riple_verify"
+            style="riple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:fontFamily="@font/fontstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:padding="5dp"
+                android:text="@string/verify"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+    </androidx.cardview.widget.CardView>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginTop="10dp"
+      >
+      <TextView
+          android:id="@+id/text_count_down1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="0 0 :"
+          android:fontFamily="@font/fontstyle"
+          android:textSize="20sp"
+          android:textColor="@color/colorAccent"
+          />
+      <TextView
+          android:id="@+id/text_count_down2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" 5 9"
+          android:fontFamily="@font/fontstyle"
+          android:textSize="20sp"
+          android:textColor="@color/colorAccent"
+          />
+
+
+  </LinearLayout>
+</LinearLayout>

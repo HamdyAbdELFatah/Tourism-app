@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Let Me Go</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password" tools:ignore="ExtraTranslation">Password</string>
+    <string name="Forget_Password">Forget Password ?</string>
+    <string name="Need_New_Account">Need New Account ?</string>
+    <string name="OrLoginUsingYour">Or Login Using Your</string>
+    <string name="Phone">Phone</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="AlreadyhavanAccount">Already have an Account ?</string>
+    <string name="SendverificationCode">Send verification Code</string>
+    <string name="numberphone">Send verification Code</string>
+    <string name="writeVerificationcodeher">write Verification code her..</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Recommended</string>
+    <string name="title_dashboard">Favorite</string>
+    <string name="title_notifications">Map</string>
+</resources>

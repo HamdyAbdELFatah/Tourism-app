@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Let Me Go</string>
+    <string name="Email">الاميل</string>
+    <string name="Forget_Password">نسيت كلمه المرور</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Need_New_Account">انشأ اميل جديد</string>
+    <string name="OrLoginUsingYour">او تسجيل دخولك</string>
+    <string name="Password">كلمه المرور</string>
+    <string name="Phone">الهاتف</string>
+    <string name="AlreadyhavanAccount">لديه حساب</string>
+    <string name="CreateAccount">انشاء حساب</string>
+    <string name="SendverificationCode">ارسال كود التفعيل</string>
+    <string name="SignUp">التسجيل</string>
+    <string name="numberphone">الهاتف</string>
+    <string name="verify">التحقق</string>
+    <string name="writeVerificationcodeher">اكتب كود التفعيل</string>
+</resources>
